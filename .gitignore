@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node/React
+frontend/node_modules/
+frontend/.env*
+*.log
+
+# Chroma / vector DB / caches
+backend/.chroma/
+backend/chroma_store/
+backend/**/*.sqlite3
+backend/**/*.bin
+backend/**/*.pkl
+
+# Data & uploads (keep folders but not contents)
+backend/data/**
+!backend/data/.gitkeep
+backend/documents/**
+!backend/documents/.gitkeep
